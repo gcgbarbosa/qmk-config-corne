@@ -12,6 +12,32 @@
     { F4, F5, F6, F7, B1, B3 }
 
 
+
+#pragma once
+
+#define SOFT_SERIAL_PIN D2
+
+/* ws2812 RGB LED */
+#define RGB_DI_PIN      D3
+
+#ifdef RGBLIGHT_ENABLE
+#    define RGBLED_NUM 54 // Number of LEDs
+#    define RGBLED_SPLIT \
+        { 27, 27 }
+#    define RGBLIGHT_SPLIT
+#endif
+
+#ifdef RGB_MATRIX_ENABLE
+#    define RGBLED_NUM       54 // Number of LEDs
+#    define RGB_MATRIX_LED_COUNT RGBLED_NUM
+#    define RGB_MATRIX_SPLIT \
+        { 27, 27 }
+#    define SPLIT_TRANSPORT_MIRROR
+#endif
+
+#define DIODE_DIRECTION COL2ROW
+
+
 // Configure the global tapping term (default: 150ms)
 #define TAPPING_TERM 150
 
