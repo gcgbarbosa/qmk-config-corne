@@ -38,8 +38,6 @@
 #endif
 
 
-#ifdef RGB_MATRIX_ENABLE
-
 
 #define DIODE_DIRECTION COL2ROW
 
