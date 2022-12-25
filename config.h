@@ -22,12 +22,15 @@
 // COL2ROW means the black mark on your diode is facing to the rows, and between the switch and the rows.
 #define DIODE_DIRECTION COL2ROW
 
-#ifdef RGB_LIGHT_ENABLE
-#    define RGBLIGHT_EFFECT_BREATHING	
-#    define RGBLIGHT_EFFECT_CHRISTMAS
-#    define RGBLIGHT_EFFECT_SNAKE
-#    define RGBLIGHT_EFFECT_RAINBOW_MOOD
-#    define RGB_DISABLE_WHEN_USB_SUSPENDED true // turn off effects when suspended
+#ifdef RGBLIGHT_ENABLE
+    #define RGBLIGHT_EFFECT_BREATHING
+    #define RGBLIGHT_EFFECT_RAINBOW_MOOD
+    #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+    #define RGBLIGHT_EFFECT_SNAKE
+    #define RGBLIGHT_EFFECT_KNIGHT
+    #define RGBLIGHT_EFFECT_CHRISTMAS
+    #define RGBLIGHT_EFFECT_STATIC_GRADIENT
+    #define RGB_DISABLE_WHEN_USB_SUSPENDED true // turn off effects when suspended
 #endif
 
 #ifdef RGB_MATRIX_ENABLE
@@ -39,6 +42,7 @@
 #    define RGB_DISABLE_WHEN_USB_SUSPENDED true // turn off effects when suspended
 #endif
 
+#define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
 
 // Configure the global tapping term (default: 150ms)
 #define TAPPING_TERM 150
