@@ -1,5 +1,11 @@
 #include "config_common.h"
 
+/* lighting optoins */
+#define RGBLED_NUM       54 // Number of LEDs
+
+/* ws2812 RGB LED */
+#define RGB_DI_PIN      D3
+
 /* key matrix size */
 // Rows are doubled-up
 #define MATRIX_ROWS  8
@@ -12,34 +18,27 @@
     { F4, F5, F6, F7, B1, B3 }
 
 #define SOFT_SERIAL_PIN D2
+// COL2ROW or ROW2COL - how your matrix is configured. 
+// COL2ROW means the black mark on your diode is facing to the rows, and between the switch and the rows.
+#define DIODE_DIRECTION COL2ROW
 
-/* ws2812 RGB LED */
-#define RGB_DI_PIN      D3
+#ifdef RGB_LIGHT_ENABLE
+#    define RGBLIGHT_EFFECT_BREATHING	
+#    define RGBLIGHT_EFFECT_CHRISTMAS
+#    define RGBLIGHT_EFFECT_SNAKE
+#    define RGBLIGHT_EFFECT_RAINBOW_MOOD
+#    define RGB_DISABLE_WHEN_USB_SUSPENDED true // turn off effects when suspended
+#endif
 
 #ifdef RGB_MATRIX_ENABLE
-#    define RGBLED_NUM       54 // Number of LEDs
 #    define RGB_MATRIX_LED_COUNT RGBLED_NUM
 #    define RGB_MATRIX_SPLIT \
         { 27, 27 }
 #    define SPLIT_TRANSPORT_MIRROR
-
-#   define RGB_MATRIX_KEYPRESSES // reacts to keypresses
-// #   define RGB_MATRIX_KEYRELEASES // reacts to keyreleases (instead of keypresses)
-// #   define RGB_DISABLE_AFTER_TIMEOUT 0 // number of ticks to wait until disabling effects
-#   define RGB_DISABLE_WHEN_USB_SUSPENDED true // turn off effects when suspended
-#   define RGB_MATRIX_FRAMEBUFFER_EFFECTS
-// #   define RGB_MATRIX_LED_PROCESS_LIMIT (DRIVER_LED_TOTAL + 4) / 5 // limits the number of LEDs to process in an animation per task run (increases keyboard responsiveness)
-// #   define RGB_MATRIX_LED_FLUSH_LIMIT 16 // limits in milliseconds how frequently an animation will update the LEDs. 16 (16ms) is equivalent to limiting to 60fps (increases keyboard responsiveness)
-#    define RGB_MATRIX_MAXIMUM_BRIGHTNESS 150 // limits maximum brightness of LEDs to 150 out of 255. Higher may cause the controller to crash. 
-#    define RGB_MATRIX_HUE_STEP 8
-#    define RGB_MATRIX_SAT_STEP 8
-#    define RGB_MATRIX_VAL_STEP 8
-#    define RGB_MATRIX_SPD_STEP 10
+#    define RGB_MATRIX_KEYPRESSES // reacts to keypresses
+#    define RGB_DISABLE_WHEN_USB_SUSPENDED true // turn off effects when suspended
 #endif
 
-
-
-#define DIODE_DIRECTION COL2ROW
 
 // Configure the global tapping term (default: 150ms)
 #define TAPPING_TERM 150
