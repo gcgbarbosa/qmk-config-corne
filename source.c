@@ -16,7 +16,7 @@ oled_rotation_t oled_init_user(oled_rotation_t rotation) {
 void oled_render_layer_state(void) {
     oled_write_P(PSTR("Layer: "), false);
     switch (layer_state) {
-        case 0:
+        case L_BASE:
             oled_write_ln_P(PSTR("Default"), false);
             break;
         case 1:
