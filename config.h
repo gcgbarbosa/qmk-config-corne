@@ -85,3 +85,7 @@
 
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
 #define TAPPING_FORCE_HOLD
+
+// Desperatly try to scrape space
+#define NO_ACTION_MACRO
+#define NO_ACTION_FUNCTION
