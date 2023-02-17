@@ -12,9 +12,6 @@ oled_rotation_t oled_init_user(oled_rotation_t rotation) {
 }
 
 #define L_BASE 0
-#define L_LOWER 2
-#define L_RAISE 4
-#define L_ADJUST 8
 
 void oled_render_layer_state(void) {
     oled_write_P(PSTR("Layer: "), false);
