@@ -38,8 +38,6 @@ static void render_status(void) {
     oled_write_P(led_state.num_lock ? PSTR("NUM ") : PSTR("    "), false);
     oled_write_P(led_state.caps_lock ? PSTR("CAP ") : PSTR("    "), false);
     oled_write_P(led_state.scroll_lock ? PSTR("SCR ") : PSTR("    "), false);
-    
-    return false;
 }
 
 oled_rotation_t oled_init_user(oled_rotation_t rotation) {
