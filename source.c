@@ -51,7 +51,7 @@ bool oled_task_user(void) {
     if (is_keyboard_master()) {
         render_status();  // Renders the current keyboard state (layer, lock, caps, scroll, etc)
     } else {
-        render_logo();  // Renders a static logo
+        oled_render_logo();  // Renders a static logo
     }
     return false;
 }
