@@ -19,13 +19,13 @@ static void render_status(void) {
     oled_write_P(PSTR("Layer: "), false);
 
     switch (get_highest_layer(layer_state)) {
-        case _QWERTY:
+        case 0:
             oled_write_P(PSTR("Default\n"), false);
             break;
-        case _FN:
+        case 1:
             oled_write_P(PSTR("FN\n"), false);
             break;
-        case _ADJ:
+        case 2:
             oled_write_P(PSTR("ADJ\n"), false);
             break;
         default:
