@@ -22,10 +22,19 @@ static void render_status(void) {
             oled_write_P(PSTR("Default\n"), false);
             break;
         case 1:
-            oled_write_P(PSTR("FN\n"), false);
+            oled_write_P(PSTR("Navigation\n"), false);
             break;
         case 2:
-            oled_write_P(PSTR("ADJ\n"), false);
+            oled_write_P(PSTR("Fun|Sym\n"), false);
+            break;
+        case 3:
+            oled_write_P(PSTR("Num|Conf\n"), false);
+            break;
+        case 4:
+            oled_write_P(PSTR("FPS1\n"), false);
+            break;
+        case 5:
+            oled_write_P(PSTR("FPS2\n"), false);
             break;
         default:
             // Or use the write_ln shortcut over adding '\n' to the end of your string
