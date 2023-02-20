@@ -1,5 +1,5 @@
-SRC += source.c
 SRC += glcdfont.c
+SRC += source.c
 
 SPLIT_KEYBOARD = yes
 
