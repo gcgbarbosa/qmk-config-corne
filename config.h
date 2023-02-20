@@ -65,8 +65,6 @@
     #define ENABLE_RGB_MATRIX_HUE_PENDULUM
 #endif
 
-#define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
-
 // Configure the global tapping term (default: 150ms)
 #define TAPPING_TERM 150
 
