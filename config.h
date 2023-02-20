@@ -1,8 +1,5 @@
 #include "config_common.h"
 
-// custom oled font
-#define OLED_FONT_H "./glcdfont.c"
-
 /* lighting optoins */
 #define RGBLED_NUM       54 // Number of LEDs
 
