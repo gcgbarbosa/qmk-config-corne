@@ -1,5 +1,3 @@
-#include "config_common.h"
-
 /* lighting optoins */
 #define RGBLED_NUM       54 // Number of LEDs
 
