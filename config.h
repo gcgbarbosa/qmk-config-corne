@@ -32,12 +32,10 @@
 #endif
 
 #ifdef RGB_MATRIX_ENABLE
-    #define RGB_MATRIX_LED_COUNT RGBLED_NUM
     #define RGB_MATRIX_SPLIT \
         { 27, 27 }
     #define SPLIT_TRANSPORT_MIRROR
     #define RGB_MATRIX_KEYPRESSES // reacts to keypresses
-    #define RGB_DISABLE_WHEN_USB_SUSPENDED true // turn off effects when suspended
 
     #define ENABLE_RGB_MATRIX_GRADIENT_UP_DOWN
     #define ENABLE_RGB_MATRIX_GRADIENT_LEFT_RIGHT
