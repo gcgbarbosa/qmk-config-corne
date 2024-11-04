@@ -15,7 +15,7 @@ RGB_MATRIX_ENABLE = yes
 # RGB_MATRIX_DRIVER = WS2812
 
 OLED_ENABLE     = yes
-OLED_DRIVER     = SSD1306
+# OLED_DRIVER     = SSD1306
 
 LTO_ENABLE = yes # compress 
 EXTRAFLAGS += -flto # god please help
