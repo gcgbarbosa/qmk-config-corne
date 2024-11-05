@@ -8,6 +8,7 @@ COMMAND_ENABLE = no         # Commands for debug and configuration
 
 # emoji support
 UNICODE_COMMON = yes
+UNICODEMAP_ENABLE = yes
 
 SEND_STRING_ENABLE = yes
 
