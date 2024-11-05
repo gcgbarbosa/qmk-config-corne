@@ -42,7 +42,7 @@
       "KC_COMM",
       "KC_DOT",
       "KC_SLSH",
-      "ANY(UM(0))",
+      "ANY(UM(JOY))",
       "LCTL(KC_Z)",
       "MO(1)",
       "KC_BSPC",
