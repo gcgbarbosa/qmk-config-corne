@@ -11,6 +11,7 @@ enum unicode_names {
     DONE,
     ATTENTION,
     SURPRISE,
+    CRY
 };
 
 const uint32_t PROGMEM unicode_map[] = {
@@ -22,8 +23,9 @@ const uint32_t PROGMEM unicode_map[] = {
     [QUESTION] = 0x2753, // ❓
     [CROSS] = 0x274C, // ❌
     [DONE] = 0x2705, // ✅
-    [ATTENTION] = 0x2757 // ❗
+    [ATTENTION] = 0x2757, // ❗
     [SURPRISE] = 0x1F640 // 🙀
+    [CRY] = 0x1F63F// 😿
 };
 
 #ifdef OLED_ENABLE
