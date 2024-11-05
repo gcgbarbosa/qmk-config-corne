@@ -1,20 +1,28 @@
 #include QMK_KEYBOARD_H
 
 enum unicode_names {
-    BANG,
-    IRONY,
-    SNEK,
+    THUMBS_UP,
+    THANK_GOD,
+    OK,
     JOY,
+    HEART,
+    QUESTION,
+    CROSS,
+    DONE,
+    ATTENTION,
 };
 
 const uint32_t PROGMEM unicode_map[] = {
-    [BANG]  = 0x203D,  // ‽
-    [IRONY] = 0x2E2E,  // ⸮
-    [SNEK]  = 0x1F40D, // 🐍
+    [THUMBS_UP]  = 0x1F44D,  // 👍🏿
+    [THANK_GOD] = 0x1F64F,  // 🙏🏿
+    [SNEK]  = 0x1F91D, // 🤝🏿
     [JOY] = 0x1F639, // 😹
+    [HEART] = 0x1F49A, // 💚
+    [QUESTION] = 0x2753, // ❓
+    [CROSS] = 0x274C, // ❌
+    [DONE] = 0x2705, // ✅
+    [ATTENTION] = 0x2757 // ❗
 };
-
-
 
 #ifdef OLED_ENABLE
 
