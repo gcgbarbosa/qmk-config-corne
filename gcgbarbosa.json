@@ -95,7 +95,7 @@
       "KC_TRNS"
     ],
     [
-      "KC_NO",
+      "ANY(UC_PREV )",
       "KC_EXLM",
       "KC_AT",
       "KC_HASH",
@@ -106,7 +106,7 @@
       "KC_ASTR",
       "KC_LPRN",
       "KC_RPRN",
-      "KC_NO",
+      "ANY(UC_NEXT)",
       "KC_F1",
       "KC_F2",
       "KC_F3",
