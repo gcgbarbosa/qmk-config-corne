@@ -1,5 +1,5 @@
 /* set unicode mode to windows */
-/* #define UNICODE_SELECTED_MODES UC_WINC */
+#define UNICODE_SELECTED_MODES UC_WINC
 
 /* lighting optoins */
 #define RGBLED_NUM       54 // Number of LEDs
