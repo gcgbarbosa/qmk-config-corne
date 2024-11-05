@@ -9,6 +9,8 @@ COMMAND_ENABLE = no         # Commands for debug and configuration
 # emoji support
 UNICODE_COMMON = yes
 
+SEND_STRING_ENABLE = yes
+
 RGBLIGHT_SUPPORTED = no
 RGBLIGHT_ENABLE = no
 
