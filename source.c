@@ -15,7 +15,7 @@ enum unicode_names {
 const uint32_t PROGMEM unicode_map[] = {
     [THUMBS_UP]  = 0x1F44D,  // 👍🏿
     [THANK_GOD] = 0x1F64F,  // 🙏🏿
-    [SNEK]  = 0x1F91D, // 🤝🏿
+    [OK]  = 0x1F91D, // 🤝🏿
     [JOY] = 0x1F639, // 😹
     [HEART] = 0x1F49A, // 💚
     [QUESTION] = 0x2753, // ❓
