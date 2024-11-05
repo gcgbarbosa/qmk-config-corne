@@ -1,3 +1,5 @@
+#include QMK_KEYBOARD_H
+
 enum unicode_names {
     BANG,
     IRONY,
@@ -12,7 +14,7 @@ const uint32_t PROGMEM unicode_map[] = {
     [JOY] = 0x1F639, // 😹
 };
 
-#include QMK_KEYBOARD_H
+
 
 #ifdef OLED_ENABLE
 
