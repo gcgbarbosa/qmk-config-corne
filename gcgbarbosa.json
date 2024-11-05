@@ -75,7 +75,7 @@
       "KC_RGHT",
       "ANY(UM(6))",
       "ANY(UM(7))",
-      "KC_NO",
+      "ANY(UM(10))",
       "ANY(UM(4))",
       "ANY(UM(9))",
       "ANY(UM(1))",
