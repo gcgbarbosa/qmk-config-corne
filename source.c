@@ -24,8 +24,8 @@ const uint32_t PROGMEM unicode_map[] = {
     [CROSS] = 0x274C, // ❌
     [DONE] = 0x2705, // ✅
     [ATTENTION] = 0x2757, // ❗
-    [SURPRISE] = 0x1F640 // 🙀
-    [CRY] = 0x1F63F// 😿
+    [SURPRISE] = 0x1F640, // 🙀
+    [CRY] = 0x1F63F, // 😿
 };
 
 #ifdef OLED_ENABLE
