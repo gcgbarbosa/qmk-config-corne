@@ -1,9 +1,19 @@
 /* set mouse emulation options */
 
-#define MOUSEKEY_DELAY=0
-#define MOUSEKEY_INTERVAL=1
-#define MOUSEKEY_MAX_SPEED=16
-#define MOUSEKEY_TIME_TO_MAX=32
+// Enable kinetic mode
+#define MK_KINETIC_SPEED
+// Delay between pressing a movement key and cursor movement
+#define MOUSEKEY_DELAY 0
+// Time between cursor movements in milliseconds
+#define MOUSEKEY_INTERVAL 0
+// Step size for accelerating from initial to base speed
+#define MOUSEKEY_MOVE_DELTA 16
+
+#define MOUSEKEY_INITIAL_SPEED 100
+#define MOUSEKEY_BASE_SPEED 5000
+#define MOUSEKEY_DECELERATED_SPEED 400
+#define MOUSEKEY_ACCELERATED_SPEED 3000
+
 
 /* set unicode mode to windows */
 #define UNICODE_SELECTED_MODES UNICODE_MODE_WINCOMPOSE, UNICODE_MODE_LINUX
