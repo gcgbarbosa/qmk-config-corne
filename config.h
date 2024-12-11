@@ -5,7 +5,7 @@
 // Delay between pressing a movement key and cursor movement
 #define MOUSEKEY_DELAY 0
 // Time between cursor movements in milliseconds
-#define MOUSEKEY_INTERVAL 0
+#define MOUSEKEY_INTERVAL 5
 // Step size for accelerating from initial to base speed
 #define MOUSEKEY_MOVE_DELTA 16
 
