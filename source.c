@@ -2,30 +2,24 @@
 
 enum unicode_names {
     THUMBS_UP,
-    THANK_GOD,
-    OK,
-    JOY,
-    HEART,
-    QUESTION,
-    CROSS,
+    THUMBS_DOWN,
+    TODO,
     DONE,
-    ATTENTION,
+    THINKING,
     SURPRISE,
-    CRY
+    CRY,
+    LOL
 };
 
 const uint32_t PROGMEM unicode_map[] = {
-    [THUMBS_UP]  = 0x1F44D,  // 👍🏿
-    [THANK_GOD] = 0x1F64F,  // 🙏🏿
-    [OK]  = 0x1F91D, // 🤝🏿
-    [JOY] = 0x1F639, // 😹
-    [HEART] = 0x1F49A, // 💚
-    [QUESTION] = 0x2753, // ❓
-    [CROSS] = 0x274C, // ❌
-    [DONE] = 0x2705, // ✅
-    [ATTENTION] = 0x2757, // ❗
-    [SURPRISE] = 0x1F640, // 🙀
-    [CRY] = 0x1F63F, // 😿
+    [THUMBS_UP]  = 0x1F44D,  // 👍🏿0
+    [THUMBS_DOWN]  = 0x1F44E,  // 👎🏿1
+    [TODO] = 0x26D4, // ⛔2
+    [DONE] = 0x2705, // ✅3
+    [THINKING] = 0x1F914, // 🤔4
+    [SURPRISE] = 0x1F640, // 🙀5
+    [CRY] = 0x1F63F, // 😿6
+    [LOL] = 0x1F923 // 😂7
 };
 
 #ifdef OLED_ENABLE
