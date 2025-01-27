@@ -8,7 +8,9 @@ enum unicode_names {
     THINKING,
     SURPRISE,
     CRY,
-    LOL
+    LOL,
+    LEFT,
+    RIGHT,
 };
 
 const uint32_t PROGMEM unicode_map[] = {
@@ -19,7 +21,9 @@ const uint32_t PROGMEM unicode_map[] = {
     [THINKING] = 0x1F914, // 🤔4
     [SURPRISE] = 0x1F640, // 🙀5
     [CRY] = 0x1F63F, // 😿6
-    [LOL] = 0x1F923 // 😂7
+    [LOL] = 0x1F923, // 😂7
+    [LEFT]  = 0x1F448,  // 👈🏿8
+    [RIGHT]  = 0x1F449,  // 👉🏿9
 };
 
 #ifdef OLED_ENABLE
