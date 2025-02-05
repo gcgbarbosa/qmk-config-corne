@@ -42,8 +42,8 @@
       "KC_COMM",
       "KC_DOT",
       "KC_SLSH",
-      "LALT(KC_TAB)",
-      "LCAG(KC_D)",
+      "LALT(KC_W)",
+      "LCTL(KC_A)",
       "MO(1)",
       "KC_BSPC",
       "KC_SPC",
@@ -95,7 +95,7 @@
       "KC_TRNS"
     ],
     [
-      "ANY(LGUI(LCTL(KC_LEFT)))",
+      "LCTL(KC_TAB)",
       "KC_EXLM",
       "KC_AT",
       "KC_HASH",
@@ -106,7 +106,7 @@
       "KC_ASTR",
       "KC_LPRN",
       "KC_RPRN",
-      "ANY(LGUI(LCTL(KC_RIGHT)))",
+      "RSFT(KC_TAB)",
       "KC_F1",
       "KC_F2",
       "KC_F3",
