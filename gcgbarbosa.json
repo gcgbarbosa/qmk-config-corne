@@ -95,7 +95,7 @@
       "KC_TRNS"
     ],
     [
-      "LCTL(KC_TAB)",
+      "RCS(KC_TAB)",
       "KC_EXLM",
       "KC_AT",
       "KC_HASH",
@@ -106,7 +106,7 @@
       "KC_ASTR",
       "KC_LPRN",
       "KC_RPRN",
-      "RSFT(KC_TAB)",
+      "LCTL(KC_TAB)",
       "KC_F1",
       "KC_F2",
       "KC_F3",
