@@ -16,7 +16,17 @@
 
 // Increase time to max
 #define MOUSEKEY_TIME_TO_MAX 64
-#define MOUSEKEY_MAX_SPEED 12
+#define MOUSEKEY_MAX_SPEED 18
+
+//
+#define MK_C_OFFSET_UNMOD 16
+#define MK_C_INTERVAL_UNMOD 32
+#define MK_C_OFFSET_0 1
+#define MK_C_INTERVAL_0 32
+#define MK_C_OFFSET_1 8
+#define MK_C_INTERVAL_1 32
+#define MK_C_OFFSET_2 16
+#define MK_C_INTERVAL_2 32
 
 // define scroll movement speeds
 #define MK_W_INTERVAL_0 128
