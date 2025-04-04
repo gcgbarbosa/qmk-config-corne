@@ -1,7 +1,7 @@
 /* set mouse emulation options */
 
 // Enable constant mode
-#define MK_COMBINED
+#define MK_3_SPEED
 // Enable momentary acceleration (tap to select)
 #define MK_MOMENTARY_ACCEL
 
@@ -16,16 +16,16 @@
 
 // Increase time to max
 #define MOUSEKEY_TIME_TO_MAX 64
-#define MOUSEKEY_MAX_SPEED 16
+#define MOUSEKEY_MAX_SPEED 8
 
 //
 #define MK_C_OFFSET_UNMOD 2
 #define MK_C_INTERVAL_UNMOD 32
 #define MK_C_OFFSET_0 1
 #define MK_C_INTERVAL_0 32
-#define MK_C_OFFSET_1 2
+#define MK_C_OFFSET_1 8
 #define MK_C_INTERVAL_1 32
-#define MK_C_OFFSET_2 4
+#define MK_C_OFFSET_2 16
 #define MK_C_INTERVAL_2 32
 
 // define scroll movement speeds
