@@ -20,7 +20,7 @@
 
 // define scroll movement speeds
 #define MK_W_INTERVAL_0 128
-#define MK_W_INTERVAL_0 64
+#define MK_W_INTERVAL_1 64
 #define MK_W_INTERVAL_2 12
 
 
