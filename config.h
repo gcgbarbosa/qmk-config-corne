@@ -5,12 +5,24 @@
 // Enable momentary acceleration (tap to select)
 #define MK_MOMENTARY_ACCEL
 
-#define MOUSEKEY_DELAY 0
+// Remove delay
+#define MOUSEKEY_DELAY
+#define MOUSEKEY_WHEEL_DELAY 0
+
 // Time between cursor movements in milliseconds
-#define MOUSEKEY_INTERVAL 5
+#define MOUSEKEY_INTERVAL 8
 // Step size for accelerating from initial to base speed
 #define MOUSEKEY_MOVE_DELTA 8
- 
+
+// Increase time to max
+#define MOUSEKEY_TIME_TO_MAX 64
+#define MOUSEKEY_MAX_SPEED 12
+
+// define scroll movement speeds
+#define MK_W_INTERVAL_0 128
+#define MK_W_INTERVAL_0 64
+#define MK_W_INTERVAL_2 12
+
 
 /* set unicode mode to windows */
 #define UNICODE_SELECTED_MODES UNICODE_MODE_WINCOMPOSE, UNICODE_MODE_LINUX
