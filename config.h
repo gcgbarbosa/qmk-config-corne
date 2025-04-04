@@ -23,9 +23,9 @@
 #define MK_C_INTERVAL_UNMOD 32
 #define MK_C_OFFSET_0 1
 #define MK_C_INTERVAL_0 32
-#define MK_C_OFFSET_1 4
+#define MK_C_OFFSET_1 2
 #define MK_C_INTERVAL_1 32
-#define MK_C_OFFSET_2 8
+#define MK_C_OFFSET_2 4
 #define MK_C_INTERVAL_2 32
 
 // define scroll movement speeds
