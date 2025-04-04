@@ -5,6 +5,12 @@
 // Enable momentary acceleration (tap to select)
 #define MK_MOMENTARY_ACCEL
 
+#define MOUSEKEY_DELAY 0
+// Time between cursor movements in milliseconds
+#define MOUSEKEY_INTERVAL 5
+// Step size for accelerating from initial to base speed
+#define MOUSEKEY_MOVE_DELTA 8
+ 
 
 /* set unicode mode to windows */
 #define UNICODE_SELECTED_MODES UNICODE_MODE_WINCOMPOSE, UNICODE_MODE_LINUX
