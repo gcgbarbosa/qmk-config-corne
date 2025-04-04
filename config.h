@@ -1,20 +1,9 @@
 /* set mouse emulation options */
 
-// Enable kinetic mode
-#define MK_KINETIC_SPEED
-// Delay between pressing a movement key and cursor movement
-#define MOUSEKEY_DELAY 0
-// Time between cursor movements in milliseconds
-#define MOUSEKEY_INTERVAL 5
-// Step size for accelerating from initial to base speed
-#define MOUSEKEY_MOVE_DELTA 64
-
-#define MOUSEKEY_INITIAL_SPEED 128
-
-// Maximum cursor speed at which acceleration stops
-#define MOUSEKEY_BASE_SPEED 5120
-#define MOUSEKEY_DECELERATED_SPEED 512
-#define MOUSEKEY_ACCELERATED_SPEED 2560
+// Enable constant mode
+#define MK_COMBINED
+// Enable momentary acceleration (tap to select)
+#define MK_MOMENTARY_ACCEL
 
 
 /* set unicode mode to windows */
