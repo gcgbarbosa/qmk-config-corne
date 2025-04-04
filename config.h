@@ -16,10 +16,10 @@
 
 // Increase time to max
 #define MOUSEKEY_TIME_TO_MAX 64
-#define MOUSEKEY_MAX_SPEED 18
+#define MOUSEKEY_MAX_SPEED 16
 
 //
-#define MK_C_OFFSET_UNMOD 16
+#define MK_C_OFFSET_UNMOD 8
 #define MK_C_INTERVAL_UNMOD 32
 #define MK_C_OFFSET_0 1
 #define MK_C_INTERVAL_0 32
