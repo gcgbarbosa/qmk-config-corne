@@ -6,7 +6,7 @@
 #define MK_MOMENTARY_ACCEL
 
 // Remove delay
-#define MOUSEKEY_DELAY
+#define MOUSEKEY_DELAY 0
 #define MOUSEKEY_WHEEL_DELAY 0
 
 // Time between cursor movements in milliseconds
