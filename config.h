@@ -19,19 +19,19 @@
 #define MOUSEKEY_MAX_SPEED 16
 
 //
-#define MK_C_OFFSET_UNMOD 8
+#define MK_C_OFFSET_UNMOD 4
 #define MK_C_INTERVAL_UNMOD 32
 #define MK_C_OFFSET_0 1
 #define MK_C_INTERVAL_0 32
-#define MK_C_OFFSET_1 8
+#define MK_C_OFFSET_1 4
 #define MK_C_INTERVAL_1 32
-#define MK_C_OFFSET_2 16
+#define MK_C_OFFSET_2 8
 #define MK_C_INTERVAL_2 32
 
 // define scroll movement speeds
-#define MK_W_INTERVAL_0 128
-#define MK_W_INTERVAL_1 64
-#define MK_W_INTERVAL_2 12
+#define MK_W_INTERVAL_0 32
+#define MK_W_INTERVAL_1 16
+#define MK_W_INTERVAL_2 4
 
 
 /* set unicode mode to windows */
