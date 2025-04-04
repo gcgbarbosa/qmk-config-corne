@@ -19,7 +19,7 @@
 #define MOUSEKEY_MAX_SPEED 16
 
 //
-#define MK_C_OFFSET_UNMOD 4
+#define MK_C_OFFSET_UNMOD 2
 #define MK_C_INTERVAL_UNMOD 32
 #define MK_C_OFFSET_0 1
 #define MK_C_INTERVAL_0 32
