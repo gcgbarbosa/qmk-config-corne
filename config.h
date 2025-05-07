@@ -35,7 +35,7 @@
 
 
 /* set unicode mode to windows */
-#define UNICODE_SELECTED_MODES UNICODE_MODE_WINCOMPOSE, UNICODE_MODE_LINUX
+#define UNICODE_SELECTED_MODES UNICODE_MODE_WINCOMPOSE, UNICODE_MODE_LINUX, UNICODE_KEY_MAC
 
 /* lighting optoins */
 #define RGBLED_NUM       54 // Number of LEDs
