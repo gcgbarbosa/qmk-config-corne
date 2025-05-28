@@ -173,8 +173,8 @@
       "MS_WHLD",
       "MS_WHLU",
       "MS_WHLR",
+      "KC_NO",
       "KC_PSCR",
-      "SGUI(KC_4)",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
@@ -183,7 +183,7 @@
       "KC_TRNS"
     ],
     [
-      "KC_TAB",
+      "KC_BSLS",
       "KC_Q",
       "KC_W",
       "KC_E",
@@ -218,11 +218,11 @@
       "KC_COMM",
       "KC_DOT",
       "KC_SLSH",
-      "MS_BTN2",
+      "KC_LCTL",
       "KC_BSPC",
       "KC_LGUI",
       "KC_SPC",
-      "MS_BTN1",
+      "KC_TAB",
       "MO(5)",
       "KC_LSFT"
     ],
