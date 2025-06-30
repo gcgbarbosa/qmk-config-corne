@@ -1,3 +1,5 @@
+#include QMK_KEYBOARD_H
+
 enum my_keycodes {
  // apple globe key
  AP_GLOB = SAFE_RANGE,
