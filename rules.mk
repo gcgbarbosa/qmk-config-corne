@@ -25,5 +25,3 @@ EXTRAFLAGS += -flto # god please help
 KEYBOARD_SHARED_EP = yes # to enable the globe key
 
 SRC += source.c
-SRC += custom_keycodes.c
-
