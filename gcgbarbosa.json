@@ -4,7 +4,6 @@
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "crkbd/rev1",
   "keymap": "gcgbarbosa",
-  "modules": ["tzarc/globe_key"],
   "layout": "LAYOUT_split_3x6_3",
   "layers": [
     [
@@ -44,7 +43,7 @@
       "KC_DOT",
       "KC_SLSH",
       "LGUI(KC_TAB)",
-      "ANY(MT(AP_GLOB, LCTL(KC_A)))",
+      "LCTL(KC_A)",
       "MO(1)",
       "KC_BSPC",
       "KC_SPC",
@@ -76,7 +75,7 @@
       "KC_RGHT",
       "ANY(UM(2))",
       "ANY(UM(3))",
-      "QK_RBT",
+      "ANY(QK_RBT)",
       "UG_HUED",
       "UG_SATD",
       "UG_SPDD",
