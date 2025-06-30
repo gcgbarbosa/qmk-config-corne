@@ -1,5 +1,3 @@
-SRC += source.c
-
 SPLIT_KEYBOARD = yes
 
 MOUSEKEY_ENABLE = yes       # Mouse keys
@@ -20,9 +18,12 @@ RGB_MATRIX_ENABLE = yes
 
 OLED_ENABLE     = yes
 
-KEYBOARD_SHARED_EP = yes # to enable the globe key
 
 LTO_ENABLE = yes # compress 
 EXTRAFLAGS += -flto # god please help
 
+KEYBOARD_SHARED_EP = yes # to enable the globe key
+
+SRC += source.c
+SRC += custom_keycodes.c
 
