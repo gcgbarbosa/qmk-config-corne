@@ -51,7 +51,7 @@
       "MO(3)"
     ],
     [
-      "DF(4)",
+      "KC_NO",
       "KC_NO",
       "MS_UP",
       "KC_NO",
@@ -200,7 +200,7 @@
       "KC_S",
       "KC_D",
       "KC_F",
-      "KC_TRNS",
+      "KC_G",
       "KC_H",
       "KC_J",
       "KC_K",
